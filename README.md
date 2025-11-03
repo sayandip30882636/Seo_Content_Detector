@@ -60,8 +60,10 @@ seo-content-detector/
 └── sentence_embeddings.py
 
 -----
+```
+## 📂 Project Structure
 
-## 🏁 How to Run
+
 
 This allows you to see the original step-by-step analysis and run all the code.
 
