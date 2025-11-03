@@ -2,7 +2,6 @@
 
 This project is an end-to-end data science pipeline that analyzes web content to assess its SEO quality and detect duplicate articles. The entire analysis, from parsing raw HTML to training a machine learning model, is captured in the `notebooks/seo_pipeline.ipynb`.
 
-The project also includes a multi-page Streamlit web application that provides a full UI for the pipeline, including a real-time analysis tool for any live URL.
 
 
 
@@ -47,13 +46,7 @@ seo-content-detector/
 │   └── duplicate.csv         # Step 3 output
 ├── notebooks/
 │   └── seo_pipeline.ipynb    # Original notebook analysis
-├── streamlit_app/
-│   ├── app.py                # Main Streamlit app
-│   ├── utils/
-│   │   ├── parser.py         # Step 1 logic
-│   │   ├── features.py     # Step 2 & 3 logic
-│   │   └── scorer.py         # Step 4 & 5 logic
-│   └── models/
+├── models/
 │       ├── quality_model.pkl   # Step 4 output
 │  
 └── requirements.txt
