@@ -58,3 +58,29 @@ seo-content-detector/
 │  
 └── requirements.txt
 └── sentence_embeddings.py
+
+-----
+
+## 🏁 How to Run
+
+This allows you to see the original step-by-step analysis and run all the code.
+
+1.  **Clone the repository:**
+    ```bash
+    git clone https://github.com/sayandip30882636/seo-content-detector
+    ```
+2.  **Navigate to the project directory:**
+    ```bash
+    cd seo-content-detector
+    ```
+3.  **Create a virtual environment and install requirements:**
+    ```bash
+    python -m venv venv
+    source venv/bin/activate  # On Windows: venv\Scripts\activate
+    pip install -r requirements.txt
+    ```
+4.  **Run Jupyter Notebook:**
+    ```bash
+    jupyter notebook notebooks/seo_pipeline.ipynb
+    ```
+5.  Once the notebook is open in your browser, run the cells from top to bottom.
