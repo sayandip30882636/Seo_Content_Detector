@@ -55,5 +55,6 @@ seo-content-detector/
 │   │   └── scorer.py         # Step 4 & 5 logic
 │   └── models/
 │       ├── quality_model.pkl   # Step 4 output
-│       └── sentence_embeddings.npy # Step 5 asset
+│  
 └── requirements.txt
+└── sentence_embeddings.py
