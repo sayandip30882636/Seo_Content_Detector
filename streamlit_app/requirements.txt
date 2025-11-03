@@ -1,9 +1,0 @@
-streamlit
-pandas
-numpy
-regex
-scikit-learn
-beautifulsoup4
-requests
-textstat
-sentence-transformers
